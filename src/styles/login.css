@@ -1,0 +1,19 @@
+.login-wrapper{
+    border: 1px solid black;
+    width: 25%;
+    padding: 3rem;
+    border-radius: 5px;
+    margin: 17% auto;
+
+
+}
+
+.login{
+    padding: 8px;
+    border: none;
+    background-color: purple;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}

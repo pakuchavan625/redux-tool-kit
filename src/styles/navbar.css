@@ -1,0 +1,95 @@
+/* 
+.link-style{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.login{
+    padding: 8px;
+    border: none;
+    background-color: purple;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98%;
+    z-index: 1000;
+    background-color: #333;
+  }
+  
+  .brand {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .link-style {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+   
+  transition: color 0.3s ease;
+  }
+
+  .home-button:hover,
+.cart-button:hover {
+  color: #4CAF50; /* Change to your desired hover color */
+}
+
+.cart-item-count {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+  
+  .cart-item-count {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+  }
+  
+  .cart-count {
+    color: red;
+    margin-left: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .user-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-button,
+  .logout-button {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .logout-button {
+    background-color: #d9534f;
+  }
+  
+  

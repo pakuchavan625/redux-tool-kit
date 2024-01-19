@@ -1,0 +1,43 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 300px;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    padding: 1rem;
+   border-radius: 8px;
+}
+
+.add-to-cart{
+    padding: 8px;
+    border: none;
+    background-color: purple;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover{
+    background-color: rgb(3, 28, 3);
+}
+
+.remove-to-cart{
+    padding: 8px;
+    border: none;
+    background-color: purple;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove-to-cart:hover{
+    background-color: rgb(3, 28, 3);
+}
